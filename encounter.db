@@ -1,0 +1,5 @@
+db.encounters.insertOne({
+  "patientId": ObjectId("patient_id"),
+  "dateTime": ISODate("EncounterDateTime"),
+  "type": "Emergency/OPD/SpecialistCare"
+});
